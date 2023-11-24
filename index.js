@@ -79,3 +79,54 @@
 // const arrayreduceright = [5,5,2]
 // const reduceResultright = arrayreduceright.reduce((total,value,index,array) => total*value);
 // console.log(reduceResultright);
+
+
+// ============================ ///////////\\\\\\\\\\\ =====================
+
+// separet all character form a string.
+// const myStr = 'Shahin'
+// for(let x of myStr){
+//     console.log(x);
+// }
+
+// task-1
+// Create an array of numbers and use the forEach method to square each number and print the result.
+// const square = [3,5,2,15,7];
+// const squareResult = square.forEach((value,index,array)=>{
+//     console.log(value**2) ;
+// });
+
+// task-2
+//Given an array of strings, use the map method to create a new array where each string is capitalized.
+// const str = ['i\'m a web developer'];
+// const resultStr = str.map((value,index,array) => value.toUpperCase())
+// console.log(resultStr);
+
+// task-3
+// Write a function that uses the filter method to filter out even numbers from an array of integers.
+// const intArray = [3,5,4,7,8]
+// const filtereven = (filter) => {
+//     return filter.filter((value) => value % 2 !== 0 );
+// }
+// console.log(filtereven(intArray));
+
+// task-4
+// Write a function that takes an array of objects representing students (with name, age, and grade properties) and returns an array of students who are older than 18 and have a grade higher than 90.
+// const arrObject = [
+//     {Name: 'shain', Age: 19, Grade: 93},
+//     {Name: 'kholil', Age: 17, Grade: 85},
+//     {Name: 'shifat', Age: 19, Grade: 91}
+// ]
+// const arrFunction = (student) => {
+//     return student.filter(value => value.Age >18 && value.Grade > 90);
+// }
+// console.log(arrFunction(arrObject));
+
+// task-5
+// Write a function that takes two arrays and returns a new array containing only the elements that are common to both arrays.
+// const arr1 = [2,3,7,5,4]
+// const arr2 = [1,3,9,42,4]
+// const common = (arr1,arr2) =>{
+//     return arr1.filter(value => arr2.includes(value))
+// }
+// console.log(common(arr1,arr2));
