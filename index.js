@@ -112,15 +112,15 @@
 
 // task-4
 // Write a function that takes an array of objects representing students (with name, age, and grade properties) and returns an array of students who are older than 18 and have a grade higher than 90.
-// const arrObject = [
-//     {Name: 'shain', Age: 19, Grade: 93},
-//     {Name: 'kholil', Age: 17, Grade: 85},
-//     {Name: 'shifat', Age: 19, Grade: 91}
-// ]
-// const arrFunction = (student) => {
-//     return student.filter(value => value.Age >18 && value.Grade > 90);
-// }
-// console.log(arrFunction(arrObject));
+const arrObject = [
+    {Name: 'shain', Age: 19, Grade: 93},
+    {Name: 'kholil', Age: 17, Grade: 85},
+    {Name: 'shifat', Age: 19, Grade: 91}
+]
+const arrFunction = (student) => {
+    return student.filter(value => value.Age >18 && value.Grade > 90);
+}
+console.log(arrFunction(arrObject));
 
 // task-5
 // Write a function that takes two arrays and returns a new array containing only the elements that are common to both arrays.
