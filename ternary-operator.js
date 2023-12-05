@@ -18,4 +18,17 @@ const result =
     : mark >= 50 && mark <= 69
     ? "You have pass. Result = A-"
     : "You have pass. Result = A+"
-console.log(result);
+// console.log(result);
+
+
+// =======================
+//     Nullish Coalescing
+// =======================
+
+// it only check Null and Undefined. It use to check the value is null or undefined
+
+const x = {};
+const y = 23;
+const resultX = x ? x : y;
+const resultY = x.length ?? y
+console.log(resultX,resultY);
