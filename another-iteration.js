@@ -9,7 +9,7 @@
 // }
 // myObj.printfFruit();
 
-// ========= if we use this as a another peramiter it will work again =============
+// ========= if we use this as a forEch peramiter it will work again =============
 // const myObj = {
 //     Name: 'Shahin',
 //     fFruit: ['Mango', 'Apple', 'Banana'],
