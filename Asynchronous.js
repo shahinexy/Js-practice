@@ -41,10 +41,44 @@
 
 
 // == destructurung ==
-const obj = {
-    id: 1123,
-    Name: 'Shahin',
-    address: 'narayanganj'
-}
-const {address} = obj;
-console.log(address);
+
+// const obj = {
+//     id: 1123,
+//     Name: 'Shahin',
+//     address: 'narayanganj'
+// }
+// const {Name} = obj;
+// console.log(Name);
+
+
+// const obj = {
+//     id: 1123,
+//     Name: 'Shahin',
+//     address: 'narayanganj'
+// }
+// const {Name: userName} = obj;
+// console.log(userName);
+
+
+// const obj = {
+//     id: 1123,
+//     Name: 'Shahin',
+//     address: 'narayanganj',
+//     education: {
+//         BBAin: 'marketing',
+//     }
+// }
+// const {education: {BBAin}} = obj;
+// console.log(BBAin);
+
+// === we can also use default value to avoid fatal error. it will show undefined. ======
+// const obj = {
+//     id: 1123,
+//     Name: 'Shahin',
+//     address: 'narayanganj',
+//     // education: {
+//     //     BBAin: 'marketing',
+//     // }
+// }
+// const {education: {BBAin} = {}} = obj;
+// console.log(BBAin);
