@@ -39,8 +39,9 @@
 // }
 // myFunction(5,5, display);
 
-
-// == destructurung ==
+//=======================================
+//         == destructurung ==
+//=======================================
 
 // const obj = {
 //     id: 1123,
@@ -82,3 +83,25 @@
 // }
 // const {education: {BBAin} = {}} = obj;
 // console.log(BBAin);
+
+
+//=======================================
+//         == Array destructurung ==
+//=======================================
+// const myArr = [11,22,33,44,55];
+// const [a,b,c] = myArr;
+// console.log(a,b,c);
+
+// const myArr = [11,22,[1,2,3],33,44,55];
+// const [a,b,c] = myArr;
+// console.log(a,b,c);
+
+// const myArr = [11,22,[1,2,3],33,44,55];
+// const [,,[,a],,b] = myArr;
+// console.log(a,b);
+
+// == how to switch value ==
+let a = 10;
+let  b = 20;
+ [b,a] = [a,b];
+ console.log(a,b);
