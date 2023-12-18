@@ -15,23 +15,36 @@
 
 
 // =========== Callback Function =============
-function display(some){
-    console.log(some);
-}
 
-function myFunction(x, y,){
-    const sum = x+y;
-    return sum
-}
-const result = myFunction(5,5);
-display(result);
+// == normal function ==
+// function display(some){
+//     console.log(some);
+// }
 
+// function myFunction(x, y,){
+//     const sum = x+y;
+//     return sum
+// }
+// const result = myFunction(5,5);
+// display(result);
 
-// function display(){
-//     console.log(sum);
+// == Callback function ==
+// function display(some){
+//     console.log(some);
 // }
 
 // function myFunction(x, y, callback){
 //     const sum = x+y;
-//     return sum
+//     callback(sum);
 // }
+// myFunction(5,5, display);
+
+
+// == destructurung ==
+const obj = {
+    id: 1123,
+    Name: 'Shahin',
+    address: 'narayanganj'
+}
+const {address} = obj;
+console.log(address);
