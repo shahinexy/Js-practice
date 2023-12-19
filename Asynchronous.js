@@ -84,6 +84,15 @@
 // const {education: {BBAin} = {}} = obj;
 // console.log(BBAin);
 
+// const obj = {
+//     mane: 'shahin',
+//     id: 34444,
+//     friend: 'kholil'
+// }
+// const {mane, ...rest} = obj;
+// // console.log(mane);
+// console.log(rest);
+
 
 //=======================================
 //         == Array destructurung ==
